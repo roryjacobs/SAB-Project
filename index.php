@@ -30,7 +30,7 @@
 
                 <header>
                 <div class="grid_12">
-                    <h1>Now this doc is a php file!</h1>
+                    <h1>Now this doc is a php file and Dustin rocks</h1>
                 </div>
                 </header>
 
