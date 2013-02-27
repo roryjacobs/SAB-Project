@@ -36,26 +36,21 @@
 
                 <article>
                 <div class="grid_12">
-                    <div class="grid_6 alpha">
-                        <img src="img/afro.gif" alt="Walking afro man">
+                
+                
+                    <div  id="barOne" class="grid_12 alpha" style="background-image: URL(img/afro.gif); height: 150px">
+                    	<div id="capOne" style="background-image: URL(img/happy-dance.gif); height: 150px; width: 150px;">
+                    	</div>
                     </div>
-                    <div class="grid_6 omega">
-                        <img src="img/happy-dance.gif" alt="Dancing guy with beard">
+                    
+                    <div id="barTwo" class="grid_12 omega" style="background-image: URL(img/happy-dance.gif); height: 150px">
+                    	<div id="capTwo" style="background-image: URL(img/afro.gif); height: 150px; width: 150px;">
+                    	</div>
                     </div>
+                    
+                    
                 </div>
                 </article>
-                
-                <article>
-	                <div class="grid_12">
-	                	<div class="grid_6 alpha">
-	                		<h2>This is a h2 header.</h2>
-	                	</div>
-	                	<div class="grid_6 omega">
-	                		<h3>Here is a h3 header.</h3>
-	                	</div>
-	                </div>
-                </article>
-
                 <footer>
                     <div class="grid_12">
                         <h3>This be the footer.</h3>
@@ -77,5 +72,6 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+        <script src="js/animation.js"></script>
     </body>
 </html>
