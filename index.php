@@ -44,6 +44,17 @@
                     </div>
                 </div>
                 </article>
+                
+                <article>
+	                <div class="grid_12">
+	                	<div class="grid_6 alpha">
+	                		<h2>This is a h2 header.</h2>
+	                	</div>
+	                	<div class="grid_6 omega">
+	                		<h3>Here is a h3 header.</h3>
+	                	</div>
+	                </div>
+                </article>
 
                 <footer>
                     <div class="grid_12">
