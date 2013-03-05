@@ -37,15 +37,40 @@
                 <article>
                 <div class="grid_12">
                 
-                
-                    <div  id="barOne" class="grid_12 alpha" style="background-image: URL(img/afro.gif); height: 150px">
-                    	<div id="capOne" style="background-image: URL(img/happy-dance.gif); height: 150px; width: 150px;">
+                <!--Bar one -->
+                    <div  id="barOne" class="grid_12 alpha">
+                    	<div id="capOne" class="cap one">
                     	</div>
                     </div>
-                    
-                    <div id="barTwo" class="grid_12 omega" style="background-image: URL(img/happy-dance.gif); height: 150px">
-                    	<div id="capTwo" style="background-image: URL(img/afro.gif); height: 150px; width: 150px;">
+                    <div id="break1" class="grid_12 breakPoint">
+                    </div>
+                <!--Bar two -->
+                    <div id="barTwo" class="grid_12 beta">
+                    	<div id="capTwo" class="cap two">
                     	</div>
+                    </div>
+                    <div id="break2" class="grid_12 breakPoint">
+                    </div>
+                <!--Bar three -->
+					<div  id="barThree" class="grid_12 charlie">
+                    	<div id="capThree" class="cap three">
+                    	</div>
+                    </div>
+                    <div id="break3" class="grid_12 breakPoint">
+                    </div>
+                <!--Bar four -->
+                    <div id="barFour" class="grid_12 delta">
+                    	<div id="capFour" class="cap four">
+                    	</div>
+                    </div>
+                    <div id="break4" class="grid_12 breakPoint">
+                    </div>
+				<!--Bar five -->
+                    <div id="barFive" class="grid_12 elephant">
+                    	<div id="capFive" class="cap five">
+                    	</div>
+                    </div>
+                    <div id="break5" class="grid_12 breakPoint">
                     </div>
                     
                     

@@ -43,8 +43,37 @@ img, object {
 	display: block;
 }
 
-.alpha{margin-left:0px;}
-.omega{margin-right:0px;}
+.alpha{
+	margin-left:0px;
+	background-image: URL(../img/afro.gif);
+	height: 150px;
+}
+.beta{
+	margin-right:0px;
+	background-image: URL(../img/happy-dance.gif); 
+	height: 150px;
+}
+.charlie{
+	margin-right:0px;
+	background-image: URL(../img/afro.gif); 
+	height: 150px;
+}
+.delta{
+	margin-right:0px;
+	background-image: URL(../img/happy-dance.gif); 
+	height: 150px;
+}
+.elephant{
+	margin-right:0px;
+	background-image: URL(../img/afro.gif); 
+	height: 150px;
+}
+
+.breakPoint{
+	height: 0px!important;
+	margin: 0px!important;
+	padding: 0px!important;
+}
 
 #content {margin: 4% 0;}
 .container{
@@ -52,6 +81,35 @@ img, object {
 	max-width: 1000px;
 	margin: auto;
 }
+
+
+/*styles for animated caps*/
+
+.cap{
+	height: 150px;
+	width: 150px; 
+	position: relative;
+	left: 0%
+}
+
+.one{
+	background-image: URL(../img/happy-dance.gif);
+}
+
+.two{
+	background-image: URL(../img/afro.gif);
+}
+.three{
+	background-image: URL(../img/happy-dance.gif);
+}
+
+.four{
+	background-image: URL(../img/afro.gif);
+}
+.five{
+	background-image: URL(../img/happy-dance.gif);
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
