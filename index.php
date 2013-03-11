@@ -29,44 +29,48 @@
             <div class="container">
 
                 <header>
-                <div class="grid_12">
-                    <h1>Now this doc is a php file and Dustin rocks</h1>
+                <div id="topBar" class="grid_12">
+                 	This is the top bar.
+                 	<a id="viewWinner" href="#"> Click me to view the winner.</a>
                 </div>
                 </header>
 
-                <article>
-                <div class="grid_12">
+                <article class="grid_12">
+                <div id="winner">
+                winner
+                </div>
+                <div id="race">
                 
                 <!--Bar one -->
-                    <div  id="barOne" class="grid_12 alpha">
+                    <div  id="barOne" class="grid_12 bar">
                     	<div id="capOne" class="cap one">
                     	</div>
                     </div>
                     <div id="break1" class="grid_12 breakPoint">
                     </div>
                 <!--Bar two -->
-                    <div id="barTwo" class="grid_12 beta">
+                    <div id="barTwo" class="grid_12 bar">
                     	<div id="capTwo" class="cap two">
                     	</div>
                     </div>
                     <div id="break2" class="grid_12 breakPoint">
                     </div>
                 <!--Bar three -->
-					<div  id="barThree" class="grid_12 charlie">
+					<div  id="barThree" class="grid_12 bar">
                     	<div id="capThree" class="cap three">
                     	</div>
                     </div>
                     <div id="break3" class="grid_12 breakPoint">
                     </div>
                 <!--Bar four -->
-                    <div id="barFour" class="grid_12 delta">
+                    <div id="barFour" class="grid_12 bar">
                     	<div id="capFour" class="cap four">
                     	</div>
                     </div>
                     <div id="break4" class="grid_12 breakPoint">
                     </div>
 				<!--Bar five -->
-                    <div id="barFive" class="grid_12 elephant">
+                    <div id="barFive" class="grid_12 bar">
                     	<div id="capFive" class="cap five">
                     	</div>
                     </div>
@@ -76,11 +80,7 @@
                     
                 </div>
                 </article>
-                <footer>
-                    <div class="grid_12">
-                        <h3>This be the footer.</h3>
-                    </div>
-                </footer>
+               
             </div>
 
         </div>

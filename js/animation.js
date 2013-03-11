@@ -66,4 +66,15 @@ function sortBars(){
 }
 
 
+$('#viewWinner').click(function(){
+	if($('#winner').css('display') == 'none'){
+		//$('#race').animate({width: 75 + "%"});
+		$('#winner').animate({ width: 'show' });
+	}
+	else{
+		//$('#race').animate({width: 100 + "%"});
+		$('#winner').animate({ width: 'hide' });
+	}
+});
+
 

@@ -38,34 +38,28 @@ img, object {
 .grid_10,
 .grid_11,
 .grid_12 {
-	margin: 0 2% 1% 0;
 	float: left;
 	display: block;
 }
 
-.alpha{
-	margin-left:0px;
+#barOne{
 	background-image: URL(../img/afro.gif);
-	height: 150px;
 }
-.beta{
-	margin-right:0px;
+#barTwo{
 	background-image: URL(../img/happy-dance.gif); 
-	height: 150px;
 }
-.charlie{
-	margin-right:0px;
+#barThree{
 	background-image: URL(../img/afro.gif); 
-	height: 150px;
 }
-.delta{
-	margin-right:0px;
+#barFour{
 	background-image: URL(../img/happy-dance.gif); 
-	height: 150px;
 }
-.elephant{
-	margin-right:0px;
-	background-image: URL(../img/afro.gif); 
+#barFive{
+	background-image: URL(../img/afro.gif);
+}
+
+.bar{
+	margin: 0 0 10px 0;
 	height: 150px;
 }
 
@@ -75,13 +69,30 @@ img, object {
 	padding: 0px!important;
 }
 
-#content {margin: 4% 0;}
+#content {
+	margin: 0;
+}
+
 .container{
 	width: 100%; 
-	max-width: 1000px;
 	margin: auto;
 }
 
+#winner{
+	display: none;
+	float: left;
+	width: 25%;
+	height: 800px;
+	background-color: gray;
+}
+
+#race{
+	overflow: hidden;
+}
+
+#topBar{
+	height: 150px;
+}
 
 /*styles for animated caps*/
 
